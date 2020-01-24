@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kanit Regular'), local('Kanit-Regular'), url(https://fonts.gstatic.com/s/kanit/v5/nKKZ-Go6G5tXcraVGwA.woff2) format('woff2')
+ }
+
+ @font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+}
+
+.hidden {
+	display: none;
+}
+body { 
+	font-weight: normal;
+	line-height: 1.25;
+	font-family: 'Raleway', sans-serif, Arial; 
+	font-size:14px;
+	background-color:#fffff4;
+	color: #555;
+}
+
+p { 
+	padding-bottom: 10px;
+	padding-left: 20px;
+	letter-spacing:1px;
+ }
+
+#container {
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-family: 'Kanit', sans-serif, Arial;
+	color:#e2904d;
+}
+
+
+h2 { 
+	font-size: 48px; 
+	text-align: center;
+	font-weight: bold;
+	padding: 40px;
+	margin: 10px;
+	letter-spacing:2px;
+	clear: both;
+}
+
+h3 { 
+	font-size: 30px;
+	padding-bottom: 10px; 
+}
+
+h4 { 
+	font-size: 20px; 
+	padding-bottom: 5px;
+}
+
+h5 { 
+	font-size: 18px; 
+	padding-left: 20px; 
+	padding-bottom:5px;
+}
+
+h6 { 
+	font-size: 16px;
+	padding-left: 20px; 
+	padding-bottom:5px;
+}
+
+ul { 
+	list-style-type: circle;
+	padding-left:100px;
+	letter-spacing:1px;
+	font-style: italic;
+ }
+
+a { 
+	color: #e2904d;
+	letter-spacing:1px;
+ }
+
+ a:hover { 
+	color: teal;
+	letter-spacing:1px;
+ }
+
+ #mainNav {
+ 	padding: 25px;
+ 	background-color: #b3cccc;
+ }
+
+ #big {
+ 	display: block;
+ 	margin-top: 20px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding:20px;
+ }
+
+ #logo { 
+ 	padding:10px;
+ 	padding-left:100px;
+ 	width:200px;
+  }
+
+#beers {
+	padding: 100px; 
+	line-height:32px;
+}
+
+.beer { 
+  	width: 200px;
+  	padding-right:100px;
+  	margin: 5px;
+  	float: right;
+  	display: block;
+  	clear: right;
+  }
